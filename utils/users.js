@@ -6,6 +6,7 @@ function userJoin(id, username, room) {
     const user = { id, username, room };
     users.push(user);
     console.log(user)
+    
     return user;
 }
 
